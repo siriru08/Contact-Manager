@@ -1,0 +1,26 @@
+[
+    {
+        "id": 2,
+        "name": "Данил",
+        "phone": 89993215454,
+        "email": "DanilLox67@mail.ru",
+        "address": "Uzornay",
+        "favorite": "Да"
+    },
+    {
+        "id": 3,
+        "name": "Кирилл",
+        "phone": 89993210392,
+        "email": "kirill228@gmail.ru",
+        "address": "Novosibirsk",
+        "favorite": "Да"
+    },
+    {
+        "id": 4,
+        "name": "Артём",
+        "phone": 89990321923,
+        "email": "DanilLox228@mail.ru",
+        "address": "Uzornay",
+        "favorite": "✅"
+    }
+]
