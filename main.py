@@ -2,8 +2,7 @@
 import contacts
 import storage
 
-
-
+# Загрузка данных
 contacts_base = storage.load_contacts()
 
 while True:
@@ -23,10 +22,10 @@ while True:
 ========================
 """)
 
-    #try:
+
     num = input("""
 Выберите действие: """)
-    #except
+
 
     if num == "1":
         contacts.new_contacts(contacts_base)

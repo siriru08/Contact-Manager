@@ -232,6 +232,7 @@ Email: {contact["email"]}
 0. Назад
 ========================
 Выберите действие: """)
+
             if edit_word == "1":
                 new_name = input("Введите новое имя: ")
                 contact["name"] = new_name
