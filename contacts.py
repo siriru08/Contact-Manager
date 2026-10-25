@@ -13,8 +13,8 @@ def new_contacts(contacts):
     id_number = get_next_id(contacts)
 
     name = input("Введите имя контакта: ")
-    number = int(input("Введите номер контакта: "))
-    email = input("Введите почту контакта: ")
+    number = str(input("Введите номер контакта: "))
+    email = input("Введите почту контакта: ").lower()
     address = input("Введите адрес контакта: ")
     favorite = input("Добавить этот контакт в избранные (да/нет): ")
 
@@ -96,7 +96,7 @@ Email: {contact["email"]}
 
 # Поиск по номеру
         elif search_contacts == 2:
-            number_search = input("Введите номер: ")
+            number_search = int(input("Введите номер: "))
             count_number = 0     #Счётчик найденных контактов
             for contact in contacts:
                 if contact["phone"] == number_search:
@@ -323,7 +323,6 @@ def sorted_contacts(contacts):
 
     elif word_sort == "0":
         return
-
     else:
         print("Неизвестная команда")
 
